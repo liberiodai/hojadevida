@@ -1,24 +1,83 @@
 <!DOCTYPE html>
 <html lang="esp">
-<head>
+<head><!--se pone lo que no queremos que se muestre en el navegador-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida</title>
 
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
         h1 {
             text-align: center;
+            color: #333;
         }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
         img {
             display:block;
-            margin:  auto;
+            margin: auto;  
+        }
+
+        p, li {
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .redes a {
+            text-decoration: none;
+            margin-right: 10px;
+            color: white;
+            background: violet;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .redes a:hover {
+            background: #580565;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Dailyn Elina Liberio Rodriguez</h1>
-    <img src="fotos/fotohojadevida.jpeg" alt="Foto de perfil" width="120">
+    <div class="container"><!--contenedor que envuelve el cv-->
+        <h1>Dailyn Elina Liberio Rodriguez</h1>
+        <img src="fotos/fotohojadevida.jpeg" alt="Foto de perfil" width="120">
+        <div class="redes" style="text-align: center; margin-top: 10px;">
+            <a href="https://www.instagram.com/liberiosnow?igsh=MWc5MGU0MzcyZHpwZQ==" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
     <hr><!--agrega una linea para separar textos-->
+
     <h2>Datos personales</h2>
     <p>Correo: elinaliberio59@gmail.com</p>
     <p>Teléfono: 0990292716</p>
@@ -101,4 +160,20 @@
          </li>
     </ul>
 </body>
+<!--en style 
+body: se puso para cambiar la letra, poner el fondo en gris, elminar espacios, 
+evitar separaciones innecesarias.
+.container: para hacer tipo tarjeta la primera parte, se hizo que ocupe solo el 80%
+para que no crezca en pantallas grande, lo centra, fondo blanco tipo hoja, padding para
+espacios internos, border para redondear los bordes, box para efecto sombra, margin para 
+separacion arriba.
+h1-h2: centrar nombre y se agrego linea abajo
+img: se centro la imagen 
+p, li: para cambiar el color del texto a gris oscuro
+ul: se ajustto la sangria de las listas
+div en redes sociales: se creo el enlace con <a> y se lo paso para que se habra en otra
+pestaña.
+.redes: se le quito el subrayado al enlace, se le dio forma de boton , se le puso color
+hover, es para cuando pases el mouse por encima cambie de color el icono.
+hr, se hizo las lineas mas sutiles-->
 </html>
