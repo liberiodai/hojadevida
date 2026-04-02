@@ -1,179 +1,116 @@
 <!DOCTYPE html>
 <html lang="esp">
+
 <head><!--se pone lo que no queremos que se muestre en el navegador-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="stile/stile.css">
 
-        .container {
-            width: 80%;
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin-top: 20px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        h2 {
-            color: #444;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-
-        img {
-            display:block;
-            margin: auto;  
-        }
-
-        p, li {
-            color: #555;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .redes a {
-            text-decoration: none;
-            margin-right: 10px;
-            color: white;
-            background: violet;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-
-        .redes a:hover {
-            background: #580565;
-        }
-        hr {
-            border: none;
-            height: 1px;
-            background: #ddd;
-            margin: 20px 0;
-        }
-    </style>
 </head>
+
 <body>
     <div class="container"><!--contenedor que envuelve el cv-->
+
         <h1>Dailyn Elina Liberio Rodriguez</h1>
         <img src="fotos/fotohojadevida.jpeg" alt="Foto de perfil" width="120">
-        <div class="redes" style="text-align: center; margin-top: 10px;">
+
+        <div class="redes">
             <a href="https://www.instagram.com/liberiosnow?igsh=MWc5MGU0MzcyZHpwZQ==" target="_blank">Instagram</a>
         </div>
+
+        <section>
+            <h2>Datos personales</h2>
+            <p>Correo: elinaliberio59@gmail.com</p>
+            <p>Teléfono: 0990292716</p>
+            <p>Dirección: Mariana de Jesus - Quito</p>
+        </section>
+
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Soy una persona responsable con ganas de aprender y crecer profesionalmente</p>
+        </section>
+
+        <section>
+            <h2>Formación Académica</h2>
+            <ul>
+                <li>Tecnologia en Desarrollo de Software<br>
+                    Instituto Tecnológico Quito - Cursando</li><br><!--salto de linea-->
+
+                <li>licenciatura en Negocios Internacionales<br>
+                    Pontificia Universidad Católica del Ecuador - Pausado</li><br>
+
+                <li>Bachiller Técnico en servicio de Contabilidad<br>
+                    Unidad Educativa "La Concordia"</li><br>
+
+                <li>Secundaria<br>
+                    Unidad Educativa "Gustavo Becerra Ortiz"</li><br>
+
+                <li>Primeria<br>
+                    Unidad Educativa "José de la Cruz"</li><br>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experiencia</h2>
+            <ul>
+                <li>Auxiliar Administrativa - AbonosLib Farm<br>
+                    13/Marzo/2024 - 24/Noviembre/2025</li><br>
+
+                <li>PEXA Planta Extractora Agricola La Unión S.A.<br>
+                    1/Noviembre/2022 - 1/Enero/2023</li><br>
+
+                <li>PASANTE DE CONTABILIDAD - Tanabe Farm-Hacienda TECNOBAN<br>
+                    1/octubre/2021 - 31/octubre/2021</li><br>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul><!--contenedor que es para una lista-->
+                <li>Responsable</li><!--lista-->
+                <li>Trabajo en Equipo</li>
+                <li>Gestor de facturas y pagos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Italiano / básico</li>
+                <li>Ingles / básico </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certificados</h2>
+            <p>Excel - Pontificia Universidad Católica del Ecuador 2024</p>
+            <p>Costos para los negocios - Coursera 2023</p>
+        </section>
+
+        <section>
+            <h2>Referencias</h2>
+            <ul>
+                <li><strong>Maria Isabel Zambrano</strong><br>
+                    Secretaria General - TECNOBAN<br>
+                    Teléfono: 099999999
+                </li><!--strong resaltar el nombre-->
+
+                <li><strong>Egas Patricio</strong><br>
+                    Gerente General<br>
+                    Teléfono: 099999999
+                </li>
+
+                <li><strong>Fernando Liberio</strong><br>
+                    Gerente - AbonosLib Farm<br>
+                    Teléfono: 099999999</li>
+            </ul>
+        </section>
+
     </div>
-    
-    <hr><!--agrega una linea para separar textos-->
 
-    <h2>Datos personales</h2>
-    <p>Correo: elinaliberio59@gmail.com</p>
-    <p>Teléfono: 0990292716</p>
-    <p>Dirección: Mariana de Jesus - Quito</p>
-    <hr>
-
-    <h2>Perfil Profesional</h2>
-    <p>Soy una persona responsable con ganas de aprender y crecer profesionalmente</p>
-    <hr>
-
-    <h2>Formación Académica</h2>
-    <ul>
-        <li>Tecnologia en Desarrollo de Software<br>
-            Instituto Tecnológico Quito - Cursando</li><br><!--salto de linea-->
-
-    <li>licenciatura en Negocios Internacionales<br>
-        Pontificia Universidad Católica del Ecuador - Pausado</li><br>
-
-    <li>Bachiller Técnico en servicio de Contabilidad<br>
-        Unidad Educativa "La Concordia"</li><br>
-
-    <li>Secundaria<br>
-        Unidad Educativa "Gustavo Becerra Ortiz"</li><br>
-
-    <li>Primeria<br>
-        Unidad Educativa "José de la Cruz"</li><br>
-
-    </ul>
-    <hr>
-
-    <h2>Experiencia</h2>
-    <ul>
-        <li>Auxiliar Administrativa - AbonosLib Farm<br>
-            13/Marzo/2024 - 24/Noviembre/2025</li><br>
-
-    <li>PEXA Planta Extractora Agricola La Unión S.A.<br>
-        1/Noviembre/2022 - 1/Enero/2023</li><br>
-
-    <li>PASANTE DE CONTABILIDAD - Tanabe Farm-Hacienda TECNOBAN<br>
-        1/octubre/2021 - 31/octubre/2021</li><br>
-    </ul>
-    
-    <hr>
-
-    <h2>Habilidades</h2>
-    <ul><!--contenedor que es para una lista-->
-        <li>Responsable</li><!--lista-->
-        <li>Trabajo en Equipo</li>
-        <li>Gestor de facturas y pagos</li>
-    </ul>
-    <hr>
-
-    <h2>Idiomas</h2>
-    <ul>
-        <li>Italiano  /  básico</li>
-        <li>Ingles /  básico </li>
-    </ul>
-    <hr>
-
-    <h2>Certificados</h2>
-    <p>Excel - Pontificia Universidad Católica del Ecuador 2024</p>
-    <p>Costos para los negocios - Coursera 2023</p>
-    <hr>
-
-    <h2>Referencias</h2>
-    <ul>
-        <li><strong>Maria Isabel Zambrano</strong><br>
-            Secretaria General - TECNOBAN<br>
-            Teléfono: 099999999
-        </li><!--strong resaltar el nombre-->
-        
-        <li><strong>Egas Patricio</strong><br>
-            Gerente General<br>
-            Teléfono: 099999999
-        </li>
-        
-        <li><strong>Fernando Liberio</strong><br>
-            Gerente - AbonosLib Farm<br>
-            Teléfono: 099999999
-         </li>
-    </ul>
 </body>
-<!--en style 
-body: se puso para cambiar la letra, poner el fondo en gris, elminar espacios, 
-evitar separaciones innecesarias.
-.container: para hacer tipo tarjeta la primera parte, se hizo que ocupe solo el 80%
-para que no crezca en pantallas grande, lo centra, fondo blanco tipo hoja, padding para
-espacios internos, border para redondear los bordes, box para efecto sombra, margin para 
-separacion arriba.
-h1-h2: centrar nombre y se agrego linea abajo
-img: se centro la imagen 
-p, li: para cambiar el color del texto a gris oscuro
-ul: se ajustto la sangria de las listas
-div en redes sociales: se creo el enlace con <a> y se lo paso para que se habra en otra
-pestaña.
-.redes: se le quito el subrayado al enlace, se le dio forma de boton , se le puso color
-hover, es para cuando pases el mouse por encima cambie de color el icono.
-hr, se hizo las lineas mas sutiles-->
+
 </html>

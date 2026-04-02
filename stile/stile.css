@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}/*body: se puso para cambiar la letra, poner el fondo en gris de toda la pagina, elminar espacios, 
+evitar separaciones innecesarias.*/
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}/*.container: para hacer tipo tarjeta la primera parte, se hizo que ocupe solo el 80%
+para que no crezca en pantallas grande, lo centra, fondo blanco tipo hoja, padding para
+espacios internos, border para redondear los bordes, box para efecto sombra, margin para 
+separacion arriba del contenedor.*/
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+/*h1-h2: centrar nombre y se agrego linea abajo*/
+h2 {
+    display: inline-block; /*estilo boton dentro, la letra como bloque pequeño*/
+    background: #cdb4f6; /*fondo morado tipo etiqueta*/
+    padding: 5px 14px;/*espacio interno para el boton*/
+    border-radius: 15px; /*redondear bordes*/
+    font-size: 20px; /*tamaño del texto*/
+    font-weight: bold; /*texto en negrita*/
+    letter-spacing: 1px; /*espacio entre letras*/
+    color: #444;
+    border-bottom: 2px solid #5427F5; /*linea abajo del titulo*/
+}
+
+img {
+    display: block; 
+    margin: auto;
+}/*img: se centro la imagen*/
+
+p,
+li {
+    color: #555;
+}/*p, li: para cambiar el color del texto a gris oscuro*/
+
+ul {
+    padding-left: 20px;
+}/*ul: se ajustto la sangria de las listas*/
+
+.redes {
+    text-align: center;
+    margin-top: 10px;
+} /*centra el boton*/
+
+.redes a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    background: #9A63F8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}/*quita  el  subrayado del enlace*/
+
+.redes a:hover {
+    background: #580565;
+}
+/*.redes: se le quito el subrayado al enlace, se le dio forma de boton , se le puso color
+hover, es para cuando pases el mouse por encima cambie de color el icono.*/
+
+section {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}/**/
